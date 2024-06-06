@@ -2,7 +2,7 @@
 
 def hasDuplicate(nums:List[int])->bool:
     dictionary={}
-        for num in List:
+        for num in nums:
             if num in dictionary:
                 dictionary[num]+=1
             else:
